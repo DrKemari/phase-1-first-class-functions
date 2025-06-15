@@ -6,14 +6,14 @@ const receivesAFunction = function(cb) {
 
   const returnsANamedFunction = () => {
     const mySpecialFunction = function customLogger() {
-      console.log("Custom logic here if needed.");
+      console.log("Hello");
     };
     return mySpecialFunction;
   };
   
   const returnsAnAnonymousFunction = () => {
     return () => {
-      console.log("Anonymous function executed.");
+      console.log("Anonymous");
     };
   };
   
